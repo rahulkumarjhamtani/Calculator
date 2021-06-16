@@ -1,0 +1,22 @@
+{
+    "name" : "Orbit",
+    "version" : "1.0",
+    "description" : "Calculator",
+    "manifest_version" : 2,
+    "content_scripts" : [
+        {
+            "matches" : ["<all_urls>"],
+            "js" : ["script.js"]
+        }
+    ],
+    "browser_action" : {
+        "default_popup" : "index.html",
+        "default_icon" : "logo.png"
+    },
+    "icons": {
+        "48": "logo.png"
+    },
+    
+    "content_security_policy": "script-src 'self' 'unsafe-eval'; object-src 'self';"
+    
+}

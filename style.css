@@ -1,0 +1,65 @@
+body
+{
+    background-color:rgb(253, 221, 180);
+}
+h1
+{
+    color:darkblue;
+    font-size:45px;
+    font-family:"Verdana";
+}
+.container
+{
+    text-align:center;
+}
+input
+{
+    font-size:25px;
+    width:25%;
+    margin-bottom:2%;
+    border-radius:8px;
+    height:35px;
+}
+button
+{
+    background-color:#3E56C4;
+    color:white;
+    font-size:22px;
+    height:40px;
+    width:80px;
+    border-radius:15px;
+    font-weight:lighter;
+    font-family:"sans-serif";
+    cursor: pointer;
+}
+button:hover
+{
+    background-color:#1b3192;
+    transition:background-color 1s;
+}
+table
+{
+    margin:auto;
+    border-spacing:10px;
+}
+@media (max-width:575px)
+{
+    input
+    {
+        width:90%;
+    }
+}
+@media (min-width:576px) and (max-width:767px)
+{
+    input 
+    {
+        width:65%;
+    }
+} 
+@media (min-width:768px) and (max-width:991px)
+{
+    input
+    {
+        width:55%
+    }
+}
