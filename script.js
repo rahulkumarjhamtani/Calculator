@@ -4,6 +4,8 @@ let dvalue = '';
 
 display.addEventListener("focus", (e)=>{
     e.target.value = "";
+    dvalue = "";
+    display.value = dvalue;
 })
 
 for(item of buttons)
